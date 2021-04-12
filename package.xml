@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>scan_unifier</name>
+  <version>0.7.5</version>
+  <description>The scan_unifier package holds code to unify two or more laser-scans to one unified scan-message</description>
+
+  <maintainer email="gokulakams@gmail.com">Gokul</maintainer>
+  <author email="gokulakams@gmail.com">GokulaKrishnan D P</author>
+
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>laser_geometry</depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf</depend>
+
+</package>
